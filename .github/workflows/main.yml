@@ -1,4 +1,5 @@
 name: Workflow PR Only
+
 on:
   pull_request:
     branches: [ "main" ]  # déclenche seulement sur PR vers main
