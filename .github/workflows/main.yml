@@ -9,7 +9,9 @@ jobs:
     steps:
       - name: Message PR
         run: echo "Ce workflow se déclenche UNIQUEMENT lors d'une Pull Request !"
+      
       - name: Télécharger le code
         uses: actions/checkout@v3
+      
       - name: Lister les fichiers
         run: ls -l
